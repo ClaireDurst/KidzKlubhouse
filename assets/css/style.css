@@ -1,6 +1,15 @@
 h1{
 	color: red;
 }
+
+/*.selection{
+	position: absolute;
+    height: 500px;
+    width: 400px;
+    /*margin: -100px 0 0 -200px;*/
+    top: 100%;
+    left: 100%;
+}*/
 /*
 .w3-container {
 	height: 250px; 
