@@ -2,15 +2,20 @@ h1{
 	color: red;
 }
 
-/*.selection{
-	position: absolute;
+.card-panel{
+/*	position: absolute;
     height: 500px;
     width: 400px;
-    /*margin: -100px 0 0 -200px;*/
+    margin: -100px 0 0 -200px;
     top: 100%;
-    left: 100%;
-}*/
+    left: 100%;*/
+    align-content: center;
+    color: white;
+}
 /*
 .w3-container {
 	height: 250px; 
+}*/
+/*.card-panel{
+	align-content: center;
 }*/
