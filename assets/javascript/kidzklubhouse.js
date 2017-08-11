@@ -1,6 +1,3 @@
-$(function () {
-
-
-   
-
-});
+$('.slider').slider();
+ 
+//$('.carousel').carousel();
