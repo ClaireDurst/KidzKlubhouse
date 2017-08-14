@@ -1,7 +1,11 @@
 h1{
 	color: red;
 }
-
+h4{
+	color: red;
+	text-align: center;
+	font-style: italic; 
+}
 /*.card-panel{
     align-content: center;
     color: white;
