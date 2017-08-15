@@ -1,9 +1,8 @@
-
 $(function () {
 
- $(document).ready(function(){
-      $('.carousel').carousel();
-    });
-   $('.slider').slider();
+   $('.slider').slider({
+   	height: 350
+   });
+
 });
 
