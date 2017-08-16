@@ -22,3 +22,13 @@
 body {
 	background: linear-gradient(to left, #ffff00 0%, #ff3300 100%);
 }
+
+h4{
+	color: red;
+	text-align: center;
+	font-style: italic; 
+}
+
+img:hover {
+	border: dashed 2px red;
+}
