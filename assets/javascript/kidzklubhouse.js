@@ -1,5 +1,5 @@
- var submit1;
 
+ var submit1;
   $(function () {
       $("form").on("submit", function(e) {
           e.preventDefault();
@@ -53,3 +53,4 @@ $("#imageResults").append(personImage);
 
 
 displayImages();
+
