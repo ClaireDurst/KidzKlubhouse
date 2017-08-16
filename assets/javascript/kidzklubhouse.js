@@ -1,21 +1,30 @@
+ var submit1;
+
   $(function () {
       $("form").on("submit", function(e) {
+          e.preventDefault();
+          
+          console.log(submit1)
           displayImages();
+  
       });
+   
   });
-var submit = $("idtsearch").val();
+
 function displayImages(){
-var settings = {
+  var submit1 = $("#idtsearch").val();
+     console.log(submit1)
+//var settings = 
+console.log(submit1)
+$.ajax({
   async: true,
   crossDomain: true,
-  url: "https://api.imgur.com/3/gallery/search/?q=" + submit + "", 
+  url: "https://api.imgur.com/3/gallery/search/?q=" + submit1 + "", 
   method: "GET",
   headers: {
     authorization: "Client-ID f68be402270b032"
   }
-}
-
-$.ajax(settings).done(function (response) {
+}).done(function(response) {
   console.log(response);
  $("#imagessView").empty();
 for (var i = 0; i < 5; i++) {
@@ -27,7 +36,7 @@ var imageDiv = $("<div />");
 imageDiv.addClass("imageDiv");
 var title = results.title;
 console.log(title)
-console.log(results.images[i].link)
+console.log(results.link)
 var personImage = $("<img>");
 personImage.attr("src",results.images[i].link)
 personImage.addClass("img");
