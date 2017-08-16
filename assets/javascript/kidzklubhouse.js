@@ -14,7 +14,7 @@ function fCarousel(){
         var carousel = $('.carousel');
         carousel.empty();
         carousel.removeClass('initialized');//because carousel creat a class initialized we removed it 
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
             submit + "&api_key=5c281ffd50774151bbfaf5dc85b25558&limit=10&rating=g";
         $.ajax({
             url: queryURL,
