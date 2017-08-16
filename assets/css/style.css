@@ -1,7 +1,3 @@
-/*h1{
-	color: red;
-}*/
-
 .imagesize {
 	height: 175px;
 	width: 175px;
@@ -26,15 +22,3 @@
 body {
 	background: linear-gradient(to left, #ffff00 0%, #ff3300 100%);
 }
-
-/*.card-panel{
-    align-content: center;
-    color: white;
-}*/
-/*
-.w3-container {
-	height: 250px; 
-}*/
-/*.card-panel{
-	align-content: center;
-}*/
