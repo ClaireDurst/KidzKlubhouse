@@ -11,10 +11,13 @@ function fCarousel(){
   //      event.preventDefault(); //to privent the default action of the button
         var submit = $("#search").val().trim();
         console.log(submit);
+        var gifDiv = $("<div />");
+        gifDiv.addClass("carousel");
+        $("#gifResults").append(gifDiv);
         var carousel = $('.carousel');
         carousel.empty();
         carousel.removeClass('initialized');//because carousel creat a class initialized we removed it 
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" +
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
             submit + "&api_key=5c281ffd50774151bbfaf5dc85b25558&limit=10&rating=g";
         $.ajax({
             url: queryURL,

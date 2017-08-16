@@ -7,7 +7,7 @@
 	       	var vtinput2 = $("#test6").is(":checked");
 	       	var vtinput3 = $("input#test7").is(":checked");
 	       	$("#videoResults").empty();
-	       	//$("#gifResults").empty();
+	       	$("#gifResults").empty();
 	       	$("#imageResults").empty();
 	       	$('#gifResults').animatescroll({scrollSpeed:2000,easing:'easeOutBounce'});
 	       	if (vtinput1 == true) {
