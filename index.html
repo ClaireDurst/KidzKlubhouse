@@ -12,7 +12,6 @@
 
   <title>KidzKlubhouse</title>
 </head>
-
 <body>
   <!-- slider -->
   <div class="slider">
@@ -55,64 +54,70 @@
     <div class="container">
       <div class="row">
         <div class="col s6">
-          <div class="selection center-align">
-            <form action="#">
+          <!--<div class="selection center-align">
+            <form action="#">-->
               <p>
-                <input type="checkbox" id="test1" />
-                <label for="test1">Gif</label>
+                <input type="checkbox" id="test5" />
+                <label for="test5" style="color:darkred">Gif</label>
               </p>
               <p>
-                <input type="checkbox" id="test2" />
-                <label for="test2">Video</label>
+                <input type="checkbox" id="test6" />
+                <label for="test6" style="color:darkred">Video</label>
               </p>
               <p>
-                <input type="checkbox" id="test3" />
-                <label for="test3"> Picture </label>
+                <input type="checkbox" id="test7" />
+                <label for="test7" style="color:darkred"> Picture </label>
               </p>
-            </form>
-          </div>
+            <!--</form>
+          </div>-->
         </div>
         <div class="col s6">
           <form>
-            <div class="input-field">
+            <div class="input-field center-align">
               <span class="input-field"><h4>Type Here To Search Then Press The Button!!</h4></span>
               <input id="search" type="search" required>
-              <label class="label-icon" for="search"><i class="material-icons"></i></label>
-              <a id="submitButton" class="waves-effect waves-light btn">Search</a>
+              <label class="label-icon" for="search"></label>
+              <!--<a id="submitButton" class="waves-effect waves-light btn">Search</a>-->
+              <button id="submitButton" class="btn waves-effect waves-light" type="submit">Search</button>
             </div>
           </form>
         </div>
       </div>
-    </div>
-    <div class="container">
+   </div>
+   <!--<div class="container">-->
       <div class="row">
-        <div class="gifResults">
-        </div>
-        <div class="videoResults">
-        </div>
-        <div class="imageResults">
-        </div>
+         <div class="col s12">
+            <div id="gifResults">      
+              <div class="carousel">
+
+              </div>
+            </div>
+         </div>
       </div>
-
-      <div class="carousel">
- 
-
-      </div>
-
-    </div>
-  </div>
-  <footer class="page-footer">
-    <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">KidzKlubhouse</h5></div>
+         <div class="col s12">
+            <div id="videoResults">      
+             
+            </div>   
+         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">© 2017</div>
-    </div>
-  </footer>
-<script type="text/javascript" src="assets/javascript/kidzklubhouse.js"></script>
+      <div class="row">
+         <div class="col s12">
+            <div id="imageResults">      
+          
+            </div>
+         </div>
+      </div>
+   <!--</div>-->
+   <footer class="page-footer">
+      <div class="footer-copyright">
+         <div class="container center-align">KidzKlubhouse © 2017</div>
+      </div>     
+   </footer>
+   <script type="text/javascript" src="assets/javascript/kidzklubhouse.js"></script>
+   <script src="assets/javascript/kidzklubhouse1.js"></script>
+   <script src="assets/javascript/animatescroll.min.js"></script>
+   <script src="https://apis.google.com/js/client.js?onload=init"></script>
 </body>
 
 </html>
