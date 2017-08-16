@@ -6,6 +6,19 @@ h4{
 	text-align: center;
 	font-style: italic; 
 }
+
+
+img:hover {
+	border: dashed 2px red;
+}
+/*.gifResults{
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  width:calc(100% - 40px);
+  margin: 0 auto;
+  padding:5rem;
+  border-style: groove;
+}*/
 /*.card-panel{
     align-content: center;
     color: white;
