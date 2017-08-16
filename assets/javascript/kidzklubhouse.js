@@ -11,9 +11,6 @@ function fCarousel(){
   //      event.preventDefault(); //to privent the default action of the button
         var submit = $("#search").val().trim();
         console.log(submit);
-        var gifDiv = $("<div />");
-        gifDiv.addClass("carousel");
-        $("#gifResults").append(gifDiv);
         var carousel = $('.carousel');
         carousel.empty();
         carousel.removeClass('initialized');//because carousel creat a class initialized we removed it 
