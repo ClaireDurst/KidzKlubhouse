@@ -1,5 +1,30 @@
-h1{
+/*h1{
 	color: red;
+}*/
+
+.imagesize {
+	height: 175px;
+	width: 175px;
+}
+
+.gallery {
+	display: inline-block;
+}
+
+.atcenter {
+	text-align: center;
+}
+
+#idtsearch {
+    color: darkgreen;
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+	background: linear-gradient(to left, #ffff00 0%, #ff3300 100%);
 }
 h4{
 	color: red;
