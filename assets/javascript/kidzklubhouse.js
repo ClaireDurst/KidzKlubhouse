@@ -31,11 +31,11 @@ function fCarousel(){
                 //$(".carousel-item").append(par);
                 carousel.append(gifImage);
                 }
-            $("#search").val('');
+            //$("#search").val('');
             carousel.carousel();
         });
   //  });
-}
+};
 
 
 
